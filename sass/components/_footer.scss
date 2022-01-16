@@ -1,4 +1,4 @@
-@import '../import';
+@import '../tools/import';
 
 .footer {
   @include block-format(_, 100%, 330px, 0 0 25px);
@@ -49,6 +49,9 @@
     @include flex(center);
     @include media-block;
     overflow: hidden;
+    @media (max-width: $lg) {
+      padding: 50px 30px 0;
+    } 
   }
 
   &__form {
@@ -80,7 +83,7 @@
 
     &_inp {
       @include block-format(_, 100%, 100%, 0, 0 10px);
-      @include text-format(14px, 400, $open-sans, $gray-dark, left);      
+      @include text-format(14px, 400, $open-sans, $gray-dark, left);    
     }
 
     &_clear {

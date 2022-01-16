@@ -1,4 +1,4 @@
-@import '../import';
+@import '../tools/import';
 
 .header {  
   @include block-format(fixed, 100%, 40px, 0, 0, $white);

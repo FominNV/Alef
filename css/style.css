@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\000032}}
 html, body, main, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
@@ -13,29 +14,35 @@ time, mark, audio, video, button, input {
           transition-duration: .5s;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000315}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000319}}
 body {
   line-height: 1.2;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000323}}
 ol {
   padding-left: 0;
   list-style: decimal;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000328}}
 ul {
   padding-left: 0;
   list-style: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000333}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000338}}
 canvas {
   margin: 0;
   padding: 0;
@@ -181,23 +188,28 @@ canvas {
     opacity: 1;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_scroll-bar\.scss}line{font-family:\000031}}
 ::-webkit-scrollbar {
   width: 14px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_scroll-bar\.scss}line{font-family:\000034}}
 ::-webkit-scrollbar-track {
   background: #F2F2F2;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_scroll-bar\.scss}line{font-family:\000037}}
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(80deg, #828282, #ececec, #18a0fb);
   border-radius: 25px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\000034}}
 body {
   background: #FFFFFF;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\000032}}
 html, body, main, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
@@ -213,29 +225,35 @@ time, mark, audio, video, button, input {
           transition-duration: .5s;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000315}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000319}}
 body {
   line-height: 1.2;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000323}}
 ol {
   padding-left: 0;
   list-style: decimal;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000328}}
 ul {
   padding-left: 0;
   list-style: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000333}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000338}}
 canvas {
   margin: 0;
   padding: 0;
@@ -315,6 +333,7 @@ canvas {
     opacity: 1;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\000033}}
 .header {
   position: fixed;
   width: 100%;
@@ -351,13 +370,16 @@ canvas {
           animation: fade-down 1s 1 ease-in-out;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\000033}}
   .header {
     padding: 0 8px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000315}}
 .header.hide {
   top: -40px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000319}}
 .header__container {
   position: _;
   width: 90%;
@@ -388,20 +410,24 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000319}}
   .header__container {
     width: 98%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000319}}
   .header__container {
     max-width: 600px;
   }
 }
 @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000319}}
   .header__container {
     width: 100%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000324}}
 .header__logo {
   position: _;
   width: 70px;
@@ -435,10 +461,12 @@ canvas {
   letter-spacing: 0.04em;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000329}}
 .header__logo:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000334}}
 .header__menu {
   position: _;
   width: -webkit-fit-content;
@@ -469,14 +497,17 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000338}}
 .header__menu_item {
   cursor: pointer;
   margin-left: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000341}}
 .header__menu_item:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000348}}
 .header__burger {
   position: fixed;
   width: 100%;
@@ -510,10 +541,12 @@ canvas {
   z-index: 15;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000348}}
   .header__burger {
     left: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000359}}
 .header__burger_btn {
   border: none;
   background: none;
@@ -536,15 +569,18 @@ canvas {
   display: none;
   z-index: 20;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000364}}
 .header__burger_btn:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000359}}
   .header__burger_btn {
     display: block;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000372}}
 .header__burger_container {
   position: fixed;
   width: 100%;
@@ -572,6 +608,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000377}}
 .header__burger_item,
 .header__burger #burger_exit_text {
   border: none;
@@ -587,11 +624,13 @@ canvas {
   letter-spacing: 0;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_header\.scss}line{font-family:\0000382}}
 .header__burger_item:hover,
 .header__burger #burger_exit_text:hover {
   text-decoration: underline;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000313}}
 .main {
   position: _;
   width: 100%;
@@ -620,6 +659,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000317}}
 .main__container {
   position: _;
   width: 90%;
@@ -635,24 +675,28 @@ canvas {
   max-width: 1390px;
 }
 @media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000317}}
   .main__container {
     width: 98%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000317}}
   .main__container {
     max-width: 600px;
   }
 }
 @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000317}}
   .main__container {
     width: 100%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000321}}
 .main__modal_goods {
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: auto;
   margin: 0;
   padding: 0;
   background: transparent;
@@ -661,6 +705,7 @@ canvas {
   overflow-wrap: break-word;
   outline: none;
   border: none;
+  min-height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,12 +726,13 @@ canvas {
   opacity: 0;
   z-index: 50;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000330}}
 .main__modal_text {
   position: _;
   width: 80%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 15px;
   background: #F2F2F2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -717,7 +763,14 @@ canvas {
           box-shadow: 3px 3px 2px 2px #828282;
   border-radius: 6px;
 }
+@media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000330}}
+  .main__modal_text {
+    font-size: 14px;
+  }
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000345}}
 .product {
   position: _;
   width: 100%;
@@ -747,11 +800,13 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000345}}
   .product {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000350}}
 .product__images {
   position: relative;
   width: 50%;
@@ -783,10 +838,12 @@ canvas {
           animation: fade-right 0.6s 1 linear;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000350}}
   .product__images {
     width: 100%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000356}}
 .product__images_block {
   position: absolute;
   width: 10%;
@@ -817,11 +874,13 @@ canvas {
   z-index: 5;
 }
 @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000356}}
   .product__images_block {
     width: 15%;
     height: 70%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000366}}
 .product__images_item {
   position: relative;
   width: 100%;
@@ -837,10 +896,12 @@ canvas {
   -webkit-transition: outline 0.2s;
   transition: outline 0.2s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000369}}
 .product__images_item:hover {
   cursor: pointer;
   outline: 3px solid #18a0fb;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000375}}
 .product__images_item-active {
   position: _;
   width: 100%;
@@ -854,6 +915,7 @@ canvas {
   outline: none;
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
 .product__options {
   position: _;
   width: 50%;
@@ -887,30 +949,36 @@ canvas {
           animation: fade-left 0.6s 1 linear;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
   .product__options {
     width: 100%;
   }
 }
 @media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
   .product__options {
     padding: 24px 10px;
   }
 }
 @media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
   .product__options {
     padding: 24px 36px;
   }
 }
 @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
   .product__options {
     padding: 15px;
   }
 }
 @media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000380}}
   .product__options {
     padding: 10px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\0000399}}
 .product__name {
   font: 600 18px "Open Sans Medium", sans-serif;
   color: #000000;
@@ -918,6 +986,7 @@ canvas {
   letter-spacing: 0;
   margin-bottom: 8px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003104}}
 .product__article {
   font: 400 12px "Open Sans Medium", sans-serif;
   color: #828282;
@@ -925,6 +994,7 @@ canvas {
   letter-spacing: 0;
   margin-bottom: 18px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003109}}
 .product__review {
   border: none;
   background: none;
@@ -962,10 +1032,12 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003113}}
 .product__review:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003117}}
 .product__review_logo {
   font: 400 14px "Open Sans Medium", sans-serif;
   color: #000000;
@@ -987,6 +1059,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003122}}
 .product__review_grade {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,6 +1078,7 @@ canvas {
       flex-wrap: wrap;
   margin: 0 5px 0 13px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003127}}
 .product__review_link {
   font: 400 12px "Open Sans Medium", sans-serif;
   color: #828282;
@@ -1027,6 +1101,7 @@ canvas {
       flex-wrap: wrap;
   margin-right: 8px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003135}}
 .product__price {
   border: none;
   background: none;
@@ -1064,16 +1139,19 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003139}}
 .product__price:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003143}}
 .product__price_now {
   font: 700 24px "Open Sans Medium", sans-serif;
   color: #000000;
   text-align: center;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003147}}
 .product__price_old {
   font: 400 14px "Open Sans Medium", sans-serif;
   color: #828282;
@@ -1081,6 +1159,7 @@ canvas {
   letter-spacing: 0;
   text-decoration: line-through;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003153}}
 .product__sale {
   position: _;
   width: 180px;
@@ -1109,6 +1188,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003157}}
 .product__sale_item {
   position: _;
   width: 85px;
@@ -1143,13 +1223,15 @@ canvas {
   text-decoration: none;
   border: 1px solid #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003163}}
 .product__sale_item:hover {
   background: #000000;
   color: #FFFFFF;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003170}}
 .product__size {
   position: relative;
-  width: 315px;
+  width: 100%;
   height: 80px;
   margin: 0 0 40px;
   padding: 0;
@@ -1159,11 +1241,13 @@ canvas {
   overflow-wrap: break-word;
   outline: none;
   border: none;
+  max-width: 315px;
   font: 400 14px "Open Sans Medium", sans-serif;
   color: #000000;
   text-align: center;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003175}}
 .product__size_select {
   position: relative;
   width: 100%;
@@ -1187,11 +1271,7 @@ canvas {
           appearance: none;
   z-index: 2;
 }
-@media (max-width: 576px) {
-  .product__size_select {
-    width: 80%;
-  }
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003184}}
 .product__size_icon {
   position: absolute;
   width: auto;
@@ -1207,6 +1287,7 @@ canvas {
   top: 16px;
   right: 16px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003190}}
 .product__size_define {
   position: _;
   width: 100%;
@@ -1239,10 +1320,12 @@ canvas {
   text-align: center;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003194}}
 .product__size_define:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003200}}
 .product__add {
   position: _;
   width: -webkit-fit-content;
@@ -1273,6 +1356,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003204}}
 .product__add_wrap {
   position: _;
   width: 251px;
@@ -1301,6 +1385,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003209}}
 .product__add_like {
   border: none;
   background: none;
@@ -1336,9 +1421,11 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003213}}
 .product__add_like:hover {
   background: #828282;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003218}}
 .product__add_cart {
   border: none;
   background: none;
@@ -1364,10 +1451,12 @@ canvas {
   letter-spacing: 0;
   border: 1px solid #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003223}}
 .product__add_cart:hover {
   background: #FFFFFF;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003230}}
 .product__quantity {
   position: _;
   width: 145px;
@@ -1396,6 +1485,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003234}}
 .product__quantity_item {
   border: none;
   background: none;
@@ -1424,15 +1514,18 @@ canvas {
   -webkit-transition: background 0.5s;
   transition: background 0.5s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003242}}
 .product__quantity :nth-child(1):hover,
 .product__quantity :nth-child(3):hover {
   background: #828282;
   color: #FFFFFF;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003247}}
 .product__quantity :nth-child(1):active,
 .product__quantity :nth-child(3):active {
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003253}}
 .product__buy {
   font: 400 14px "Open Sans Medium", sans-serif;
   color: #000000;
@@ -1440,10 +1533,12 @@ canvas {
   letter-spacing: 0;
   margin-bottom: 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003256}}
 .product__buy:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003261}}
 .product__line {
   position: relative;
   width: calc(100% + 56px);
@@ -1459,6 +1554,7 @@ canvas {
   right: 20px;
   border-bottom: 1px solid #828282;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003267}}
 .product__condition {
   position: _;
   width: 200px;
@@ -1487,6 +1583,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003271}}
 .product__condition_item {
   position: _;
   width: 100%;
@@ -1519,10 +1616,12 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003275}}
 .product__condition_item:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003280}}
 .product__condition_item-icon {
   position: _;
   width: 15px;
@@ -1537,6 +1636,7 @@ canvas {
   border: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003288}}
 .others {
   position: _;
   width: 100%;
@@ -1565,6 +1665,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003292}}
 .others__styles {
   position: _;
   width: auto;
@@ -1582,10 +1683,12 @@ canvas {
   text-align: center;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003295}}
 .others__styles:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003300}}
 .others__block {
   position: _;
   width: 100%;
@@ -1615,11 +1718,13 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003300}}
   .others__block {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003305}}
 .others__block_item-lg {
   position: relative;
   width: 50%;
@@ -1650,15 +1755,18 @@ canvas {
   overflow: hidden;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003305}}
   .others__block_item-lg {
     width: 100%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003305}}
   .others__block_item-lg {
     padding: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003315}}
 .others__block_row-up {
   position: absolute;
   width: calc(100% - 16px);
@@ -1690,12 +1798,14 @@ canvas {
   top: 0;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003315}}
   .others__block_row-up {
     width: 100%;
     position: static;
     margin-top: 16px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003321}}
 .others__block_row-down {
   position: absolute;
   width: calc(100% - 16px);
@@ -1727,12 +1837,14 @@ canvas {
   bottom: 0;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003321}}
   .others__block_row-down {
     width: 100%;
     position: static;
     margin-top: 16px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003327}}
 .others__block_item-sm {
   position: relative;
   width: calc(50% - 8px);
@@ -1748,10 +1860,12 @@ canvas {
   overflow: hidden;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003327}}
   .others__block_item-sm {
     padding: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003335}}
 .others__block_img {
   position: absolute;
   width: 100%;
@@ -1767,15 +1881,18 @@ canvas {
   top: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003339}}
 .others__block_img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003335}}
   .others__block_img {
     position: static;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003348}}
 .others__modal {
   position: absolute;
   width: 100%;
@@ -1792,6 +1909,7 @@ canvas {
   left: 0;
   z-index: 5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003354}}
 .others__modal_fc {
   position: absolute;
   width: auto;
@@ -1808,10 +1926,12 @@ canvas {
   right: 12px;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003359}}
 .others__modal_fc:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003364}}
 .others__modal_link {
   position: absolute;
   width: 150px;
@@ -1832,10 +1952,12 @@ canvas {
   left: calc(50% - 75px);
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003370}}
 .others__modal_link:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/pages\/index\.scss}line{font-family:\00003375}}
 .others__modal_like {
   position: absolute;
   width: 44px;
@@ -1872,6 +1994,7 @@ canvas {
   bottom: 3%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\000032}}
 html, body, main, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
@@ -1887,29 +2010,35 @@ time, mark, audio, video, button, input {
           transition-duration: .5s;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000315}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000319}}
 body {
   line-height: 1.2;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000323}}
 ol {
   padding-left: 0;
   list-style: decimal;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000328}}
 ul {
   padding-left: 0;
   list-style: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000333}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/tools\/_reset\.scss}line{font-family:\0000338}}
 canvas {
   margin: 0;
   padding: 0;
@@ -1989,6 +2118,7 @@ canvas {
     opacity: 1;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\000033}}
 .footer {
   position: _;
   width: 100%;
@@ -2018,6 +2148,7 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\000033}}
   .footer {
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -2025,6 +2156,7 @@ canvas {
     margin-bottom: 60px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
 .footer__container {
   position: _;
   width: 90%;
@@ -2055,26 +2187,31 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
   .footer__container {
     width: 98%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
   .footer__container {
     max-width: 600px;
   }
 }
 @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
   .footer__container {
     width: 100%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
   .footer__container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
 .footer__block_left {
   position: _;
   width: 50%;
@@ -2103,16 +2240,19 @@ canvas {
       flex-wrap: wrap;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
   .footer__block_left {
     width: 100%;
   }
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
   .footer__block_left {
     height: 30%;
     padding-top: 30px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000327}}
 .footer__block_logo {
   font: 400 16px "Open Sans Medium", sans-serif;
   color: #000000;
@@ -2121,6 +2261,7 @@ canvas {
   margin-bottom: 8px;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000333}}
 .footer__item {
   position: _;
   width: 150px;
@@ -2149,6 +2290,7 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000338}}
 .footer__item_link {
   position: _;
   width: _;
@@ -2167,9 +2309,11 @@ canvas {
   letter-spacing: 0;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000342}}
 .footer__item_link:hover {
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000347}}
 .footer__block_right {
   position: _;
   width: 50%;
@@ -2200,10 +2344,18 @@ canvas {
   overflow: hidden;
 }
 @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000347}}
   .footer__block_right {
     width: 100%;
   }
 }
+@media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000347}}
+  .footer__block_right {
+    padding: 50px 30px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000357}}
 .footer__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2224,6 +2376,7 @@ canvas {
       -ms-flex: 0 1 452px;
           flex: 0 1 452px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000361}}
 .footer__form_danger {
   position: absolute;
   width: 100%;
@@ -2259,6 +2412,7 @@ canvas {
   opacity: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000370}}
 .footer__form_confirm {
   position: absolute;
   width: 100%;
@@ -2294,6 +2448,7 @@ canvas {
   opacity: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000379}}
 .footer__form_wrap {
   position: relative;
   width: 100%;
@@ -2308,6 +2463,7 @@ canvas {
   border: none;
   border-bottom: 2px solid #ececec;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000384}}
 .footer__form_inp {
   position: _;
   width: 100%;
@@ -2325,6 +2481,7 @@ canvas {
   text-align: left;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000389}}
 .footer__form_clear {
   border: none;
   background: none;
@@ -2362,10 +2519,12 @@ canvas {
   top: calc(50% - 8px);
   right: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\0000395}}
 .footer__form_clear:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\00003100}}
 .footer__form_btn {
   border: none;
   background: none;
@@ -2393,7 +2552,10 @@ canvas {
       align-self: flex-end;
   border: 1px solid #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%82\%D0\%B0\/Projects\/Alef\/sass\/components\/_footer\.scss}line{font-family:\00003106}}
 .footer__form_btn:hover {
   background: #000000;
   color: #FFFFFF;
 }
+
+/*# sourceMappingURL=style.css.map */
