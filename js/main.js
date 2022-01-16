@@ -61,7 +61,7 @@ function init() {
       favorite = !favorite;
       favorite ? like_icon.src = "./icons/heart-fill.svg" : like_icon.src = "./icons/heart.svg";
       favorite ? showModalGoods(`Товар "${product_name.innerHTML}" добавлен в избранное.`)
-              : showModalGoods(`Товар "${product_name.innerHTML}" удаленлен из избранного.`);
+              : showModalGoods(`Товар "${product_name.innerHTML}" удален из избранного.`);
     }
   }
 
