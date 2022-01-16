@@ -17,7 +17,6 @@ function init() {
   function showBurger(e) {
     if (e.target == burger || e.target == burger_btn_icon || e.target == burger_exit_text) {
       openBurger = !openBurger;
-      console.log(e.target);
       openBurger ? burger_btn_icon.src = './icons/menu-close.svg' : burger_btn_icon.src = './icons/menu-open.svg';
       openBurger ? burger.style.top = '0' : burger.style.top = '-100%';
       openBurger ? burger.style.opacity = 100 : burger.style.opacity = 0;
