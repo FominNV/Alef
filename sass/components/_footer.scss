@@ -1,0 +1,112 @@
+@import '../import';
+
+.footer {
+  @include block-format(_, 100%, 330px, 0 0 25px);
+  @include flex(center);
+  @media (max-width: $lg) {
+    height: fit-content;
+    margin-bottom: 60px;
+  }
+
+  &__container {
+    @include container;
+    @include flex();
+    @include container-block;
+  }
+
+  &__block_left {
+    @include block-format(_, 50%, 100%, 0, 120px 0 0);
+    @include flex(space-around);
+    @include media-block;
+    @media (max-width: $lg) {
+      height: 30%;
+      padding-top: 30px;
+    }
+  }
+
+  &__block_logo {
+    @include text-format(16px, 400);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    @include block-format(_, 150px);
+    @include flex(_, flex-start, column);
+  }  
+
+  &__item_link {
+    @include block-format(_, _, 20px, 8px 0 0);
+    @include text-format(14px, 400);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__block_right {
+    @include block-format(_, 50%, 100%, 0, 120px 0 0);
+    @include flex(center);
+    @include media-block;
+    overflow: hidden;
+  }
+
+  &__form {
+    @include flex(relative, flex-start, column);
+    flex: 0 1 452px;
+
+    &_danger {
+      @include block-format(absolute, 100%, 30px, 0, 0, $red);
+      @include text-format(14px, 400, $open-sans, $white);
+      @include flex(center, center);      
+      top: -300px;
+      opacity: 0;
+      left: 0; 
+    }
+
+    &_confirm {
+      @include block-format(absolute, 100%, 30px, 0, 0, $green);
+      @include text-format(14px, 400, $open-sans, $white);
+      @include flex(center, center);
+      top: -300px;
+      opacity: 0;
+      left: 0; 
+    }
+
+    &_wrap {
+      @include block-format(relative, 100%, 40px, 30px 0 35px);
+      border-bottom: 2px solid $gray-light;
+    }
+
+    &_inp {
+      @include block-format(_, 100%, 100%, 0, 0 10px);
+      @include text-format(14px, 400, $open-sans, $gray-dark, left);      
+    }
+
+    &_clear {
+      @include btn-reset;
+      @include block-format(absolute, 16px, 16px, 0, 0);
+      @include flex(center, center);
+      top: calc(50% - 8px);
+      right: 10px;
+      &:hover {
+        animation: jello-horizontal 0.5s 1 linear;
+      }
+      &:after {
+        content: url('../../icons/clear.svg');
+      }
+    }
+
+    &_btn {
+      @include btn-reset;
+      @include block-format(_, 150px, 36px);
+      @include text-format(14px, 400);
+      align-self: flex-end;
+      border: 1px solid $black;
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+  }
+}

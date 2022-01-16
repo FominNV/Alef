@@ -1,0 +1,90 @@
+@import 'variables';
+
+@mixin flex($jc: flex-start, $ai: flex-start, $fd: row, $wrap: wrap) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+    flex-wrap: wrap;
+}
+
+@mixin block-format(
+    $position,
+    $width: auto, 
+    $height: auto, 
+    $margin: 0, 
+    $padding: 0, 
+    $bg: transparent,
+) {
+    position: $position;
+    width: $width;
+    height: $height;
+    margin: $margin;
+    padding: $padding;
+    background: $bg;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    outline: none;
+    border: none;
+}
+
+@mixin text-format(
+    $size, 
+    $weight,
+    $famaly: $open-sans,
+    $color: $black,
+    $text-aligh: center,
+    $letter-spacing: 0,
+) {
+    font: $weight $size $famaly;
+    color: $color;
+    text-align: $text-aligh;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin btn-reset() {
+    border: none;
+    background: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@mixin container {  
+    @include block-format(_, 90%, 100%);  
+    max-width: 1390px;
+
+    @media (max-width: $xl) {
+        width: 98%;
+    }
+    @media (max-width: $lg) {
+        max-width: 600px;
+    }
+    @media (max-width: $md) {
+        width: 100%;
+    }
+}
+
+@mixin container-block {
+    @media (max-width: $lg) {
+        flex-wrap: wrap;
+    }
+}
+
+@mixin media-block {
+    @media (max-width: $lg) {
+        width: 100%;
+    }
+}
+
+@mixin block-row {
+    @include block-format(absolute, calc(100% - 16px), calc(50% - 8px));
+    @include flex(space-between);
+    @media (max-width: $lg) {
+        width: 100%;
+        position: static;
+        margin-top: 16px;
+    }
+}

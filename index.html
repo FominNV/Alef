@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Alef</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">LOGO</a>
+      <div class="header__menu">
+        <img class="header__menu_item" src="./icons/person.svg" alt="user">
+        <img class="header__menu_item" src="./icons/favorite.svg" alt="favorite">
+        <img class="header__menu_item" src="./icons/cart.svg" alt="favorite">
+        <button id="burger_btn" class="header__burger_btn">
+        <img id="burger_btn_icon" src="./icons/menu-open.svg" alt="burger">
+        </button>             
+      </div>
+      
+    </div>
+
+    <!-- burger menu start -->
+    <div id="burger" class="header__burger">
+      <nav class="header__burger_container">
+        <a href="#" class="header__burger_item">постельное белье</a>
+        <a href="#" class="header__burger_item">одежда для дома</a>
+        <a href="#" class="header__burger_item">одежда для улицы</a>
+        <button id="burger_exit" class="header__burger_item"><p id="burger_exit_text">выход</p></button>
+      </nav>          
+    </div>
+    <!-- burger menu end -->    
+  </header>
+
+  <main class="main">
+    <div class="main__container">
+
+      <!-- modal of goods start -->
+      <div id="modal_goods" class="main__modal_goods">
+        <div id="modal_text" class="main__modal_text">Добавлено несколько товаров в корзину</div>
+      </div>
+      <!-- modal of goods end -->
+
+      <!-- product start -->
+      <section class="product"> 
+        
+        <!-- product block left or top start -->
+        <div class="product__images">
+          <div class="product__images_block">
+            <img class="product__images_item" src="./images/product1/product1-1.png" alt="product1">
+            <img class="product__images_item" src="./images/product1/product1-2.png" alt="product1">
+            <img class="product__images_item" src="./images/product1/product1-3.png" alt="product1">
+            <img class="product__images_item" src="./images/product1/product1-4.png" alt="product1">
+            <img class="product__images_item" src="./images/product1/product1-5.png" alt="product1">
+          </div>          
+          <img  id="product_image" class="product__images_item-active" src="./images/product1/product1-1.png" alt="">
+        </div>
+        <!-- product block left or top end -->
+
+        <!-- product block right or bottom start -->
+        <div class="product__options">
+          <h1 id="product_name" class="product__name">Пижама для девочек</h1>
+          <div class="product__article">Арт. 02765/46</div>
+
+          <a href="#" class="product__review">
+            <div class="product__review_logo">Отзывы</div>
+            <img src="./icons/grade.svg" class="product__review_grade">
+            <div class="product__review_link">14 отзывов</div>
+          </a>
+
+          <a href="#" class="product__price">
+            <div class="product__price_now">800 ₽</div>
+            <div class="product__price_old">1500 ₽</div>
+          </a>
+
+          <div class="product__sale">
+            <a href="#" class="product__sale_item">скидка -36%</a>
+            <a href="#" class="product__sale_item">акция -20%</a>
+          </div>
+
+          <div class="product__size">
+            <select name="" id="" class="product__size_select">
+              <option disabled selected>Выбирите размер</option>
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+            </select>  
+            <a href="#" class="product__size_define">Определить размер</a>
+          </div>
+
+          <div class="product__add">
+            <div class="product__quantity">
+              <button id="quantity_up" class="product__quantity_item">+</button>
+              <input id="quantity_inp" class="product__quantity_item" type="text" value="1">
+              <button id="quantity_down" class="product__quantity_item">-</button>
+            </div>
+
+            <div class="product__add_wrap">
+              <button id="btn_add_cart" class="product__add_cart">Добавить в корзину</button>
+              <button id="btn_add_like" class="product__add_like liked">
+                <img id="like_icon" src="./icons/heart.svg" alt="like">
+              </button>
+            </div>
+          </div>
+
+          <a href="#" class="product__buy">Купить в 1 клик</a>
+          <div class="product__line"></div>
+
+          <div class="product__condition">
+            <a href="#" class="product__condition_item">
+              <img class="product__condition_item-icon" src="./icons/clothes.svg" alt="goods">
+              Описание товара
+            </a>
+            <a href="#" class="product__condition_item">
+              <img class="product__condition_item-icon" src="./icons/clock.svg" alt="goods">
+              Доставка и возврат
+            </a>
+            <a href="#" class="product__condition_item">
+              <img class="product__condition_item-icon" src="./icons/pay.svg" alt="goods">
+              Способы оплаты
+            </a>
+          </div>
+        </div>
+        <!-- product block right or bottom end -->        
+      </section>
+      <!-- product end -->
+
+      <!-- others start -->
+      <section class="others">
+        <a href="#" class="others__styles">Посмотреть все стили</a>
+        <div class="others__block">
+
+          <!-- others block left or top start -->
+          <div class="others__block_item-lg">
+            <img class="others__block_img" src="./images/product2/product2-1.png" alt="product2">
+          </div>
+          <!-- others block left or top end -->
+
+          <!-- others block right or bottom start -->
+          <div class="others__block_item-lg">
+
+            <div class="others__block_row-up">
+              <div class="others__block_item-sm">
+                <img class="others__block_img" src="./images/product2/product2-2.png" alt="product2">
+              </div>
+              <div class="others__block_item-sm">
+                <img class="others__block_img" src="./images/product2/product2-3.png" alt="product2">
+              </div>
+            </div>
+
+            <div class="others__block_row-down">
+              <div class="others__block_item-sm">
+                <img class="others__block_img" src="./images/product2/product2-4.png" alt="product2">
+                <div class="others__modal">
+                  <img class="others__modal_fc" src="./icons/full-screen.svg" alt="full-screen">
+                  <a href="#" class="others__modal_link">
+                    <img src="./icons/bag.svg" alt="bag">
+                    <p>Узнай, что на мне</p>
+                  </a>
+                  <div class="others__modal_like">
+                    <img src="./icons/heart-fill.svg" alt="heart">
+                    200
+                  </div>
+                </div>
+              </div>
+              <div class="others__block_item-sm">
+                <img class="others__block_img" src="./images/product2/product2-5.png" alt="product2">
+              </div>
+            </div>            
+          </div>
+          <!-- others block right or bottom end -->
+          
+        </div> 
+      </section>
+      <!-- others end -->
+
+    </div>    
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+
+      <!-- footer block left or top start -->
+      <div class="footer__block_left">
+        <div class="footer__item">
+          <h2 class="footer__block_logo">покупателям</h2>
+          <a href="#" class="footer__item_link">Каталог</a>
+          <a href="#" class="footer__item_link">Акции</a>
+          <a href="#" class="footer__item_link">Бренды</a>
+        </div>
+        <div class="footer__item">
+          <h2 class="footer__block_logo">о нас</h2>
+          <a href="#" class="footer__item_link">О компании</a>
+          <a href="#" class="footer__item_link">Новости</a>
+          <a href="#" class="footer__item_link">Команда</a>
+        </div>
+      </div>
+      <!-- footer block left or top end -->
+
+      <!-- footer block right or bottom start -->
+      <div class="footer__block_right">
+        <form class="footer__form" action="" method="post">
+          <h2 class="footer__block_logo">Узнайте первыми о новинках и акциях</h2>
+          <div class="footer__form_wrap">
+            <div id="form_danger" class="footer__form_danger"></div>
+            <div id="form_confirm" class="footer__form_confirm"></div>
+            <input id="form_inp" type="text" class="footer__form_inp" placeholder="Адрес электронной почты">
+            <button id="form_clear" class="footer__form_clear"></button>            
+          </div>
+          <button id="form_btn" class="footer__form_btn">Подписаться</button>
+        </form>        
+      </div>
+      <!-- footer block right or bottom end -->
+
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

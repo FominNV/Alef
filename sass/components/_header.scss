@@ -1,0 +1,89 @@
+@import '../import';
+
+.header {  
+  @include block-format(fixed, 100%, 40px, 0, 0, $white);
+  @include flex(center);
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 3px 2px $gray-light;
+  z-index: 8;
+  animation: fade-down 1s 1 ease-in-out;
+  @media (max-width: $lg) {
+    padding: 0 8px;
+  }
+
+  &.hide {
+    top: -40px;
+  }
+
+  &__container {
+    @include container;
+    @include flex(space-between);
+  }
+
+  &__logo {
+    @include block-format(_, 70px, 100%);
+    @include flex(_, center);
+    @include text-format(22px, 700, $open-sans-bold, $black, left, 0.04em);
+    text-decoration: none;
+    &:hover {
+      animation: jello-horizontal 0.5s 1 linear;
+    }
+  }
+
+  &__menu {
+    @include block-format(_, fit-content, 100%);
+    @include flex(_, center);
+
+    &_item {
+      cursor: pointer;
+      margin-left: 25px;
+      &:hover {
+        animation: jello-horizontal 0.5s 1 linear;
+      }
+    }
+  }
+
+  // burger menu start ----------
+  &__burger {    
+    @include block-format(fixed, 100%, 100%, 0, 0, rgba(52, 52, 52, 0.6));
+    @include flex(center, flex-start);
+    top: -100%;
+    left: -100%;
+    opacity: 0;
+    z-index: 15;
+    @media (max-width: $lg) {
+      left: 0;
+    }
+
+    &_btn {
+      @include btn-reset;
+      @include block-format(_, 20px, 20px, 0 0 0 20px);
+      display: none;
+      z-index: 20;
+      &:hover {
+        animation: jello-horizontal 0.5s 1 linear;
+      }
+      @media (max-width: $lg) {
+        display: block;
+      }
+    }
+
+    &_container {
+      @include block-format(fixed, 100%, 280px, 0, 40px 0 0 30px, $white);
+      @include flex(space-around, flex-start, column);
+    }
+
+    &_item,
+    #burger_exit_text {
+      @include btn-reset;
+      @include text-format(12px, 400);
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  // burger menu end ----------
+}
+

@@ -1,0 +1,388 @@
+@import '../import';
+@import '../components/scroll-bar';
+
+body {
+  background: $white;  
+}
+
+// header start --------------------
+@import '../components/header';
+// header end --------------------
+
+// main start --------------------
+.main {
+  @include block-format(_, 100%, 100%, 64px 0);
+  @include flex(center);  
+
+  &__container {
+    @include container;
+  }
+
+  &__modal_goods {
+    @include block-format(fixed, 100%, 50px);
+    @include flex(center);
+    top: -60px;
+    left: 0;
+    opacity: 0;
+    z-index: 50;
+  }
+  &__modal_text {
+    @include block-format(_, 80%, 100%, 0, 0, $gray-ultra-light);
+    @include flex(center, center);
+    @include text-format(18px, 400);
+    border: 2px solid $blue-light;
+    box-shadow: 3px 3px 2px 2px $gray-dark;
+    border-radius: 6px;   
+  }
+}
+// main end --------------------
+
+// product start --------------------
+.product {
+  @include block-format(_, 100%);
+  @include flex;
+  @include container-block;  
+
+  &__images {
+    @include block-format(relative, 50%);
+    @include flex(_, _, column);
+    @include media-block;
+    animation: fade-right 0.6s 1 linear;
+    
+    &_block {
+      @include block-format(absolute, 10%, 55%, 25px);
+      @include flex(space-between, _, column);
+      z-index: 5;
+      @media (max-width: $md) {
+        width: 15%;
+        height: 70%;
+      }
+    }
+    
+    &_item {
+      @include block-format(relative, 100%, 18%);
+      transition: outline 0.2s;
+      &:hover {
+        cursor: pointer;
+        outline: 3px solid $blue-light;        
+      }      
+    }
+
+    &_item-active {
+      @include block-format(_, 100%);
+    }
+  }
+
+  &__options {
+    @include block-format(_, 50%, fit-content, 0, 24px 36px);
+    @include flex(_, flex-start, column);
+    @include media-block;
+    animation: fade-left 0.6s 1 linear;
+    @media (max-width: $xl) {
+      padding: 24px 10px;
+    }
+    @media (max-width: $xl) {
+      padding: 24px 36px;
+    }
+    @media (max-width: $md) {
+      padding: 15px;
+    }
+    @media (max-width: $sm) {
+      padding: 10px;
+    }
+  }
+
+  &__name {
+    @include text-format(18px, 600);
+    margin-bottom: 8px;
+  }
+
+  &__article {
+    @include text-format(12px, 400, $open-sans, $gray-dark);
+    margin-bottom: 18px;
+  }
+
+  &__review {
+    @include btn-reset;
+    @include block-format(_, fit-content, 20px, 0 0 46px 0);
+    @include flex(space-between, center);
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &_logo {
+      @include text-format(14px, 400, $open-sans);
+      @include flex(_, center);
+    }
+
+    &_grade {
+      @include flex(_, center);
+      margin: 0 5px 0 13px;
+    }
+
+    &_link {
+      @include text-format(12px, 400, $open-sans, $gray-dark);
+      @include flex(_, center);
+      &:after {
+        content: url('../../icons/arrow-right.svg');
+        margin-left: 8px;
+      }
+    }
+
+  }
+
+  &__price {
+    @include btn-reset;
+    @include block-format(_, 135px, fit-content, 0 0 16px);
+    @include flex(space-between, center);
+    &:hover {
+      transform: scale(1.05);
+    }
+    &:after {
+      content: url('../../icons/arrow-right.svg');
+    }
+
+    &_now {
+      @include text-format(24px, 700);
+    }
+
+    &_old {
+      @include text-format(14px, 400, $open-sans,$gray-dark);
+      text-decoration: line-through;
+    }
+  }
+
+  &__sale {
+    @include block-format(_, 180px, 26px, 0 0 35px);
+    @include flex(space-between);
+
+    &_item {
+      @include block-format(_, 85px, 100%);
+      @include flex(center, center);
+      @include text-format(12px, 400);
+      text-decoration: none;
+      border: 1px solid $black;
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+  }
+
+  &__size {
+    @include block-format(_, 315px, 80px, 0 0 40px);
+    @include text-format(14px, 400);
+
+    &_select {
+      @include block-format(relative, 100%, 40px, 0, 0 0 0 12px);
+      @include text-format(14px, 400, $open-sans, $black, left);
+      border: 1px solid $black;
+      cursor: pointer;
+      appearance: none;
+      background: url('../../icons/arrow-down.svg') no-repeat;
+      background-position: 96% 50%;
+      @media (max-width: $sm) {
+        width: 80%;
+      }
+    }
+
+    &_define {
+      @include block-format(_, 100%, 40px);
+      @include flex(_, center);
+      @include text-format(14px, 400);
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__add {
+    @include block-format(_, fit-content, _, 0 0 15px);
+    @include flex(space-between);
+
+    &_wrap {
+      @include block-format(_, 251px, 100%, 0 0 15px);
+      @include flex(space-between);
+    }
+
+    &_like {
+      @include btn-reset;
+      @include block-format(_, 44px, 44px, 0, 0, $black);
+      @include flex(center, center);
+      &:hover {
+        background: $gray-dark;
+      }
+    }
+
+    &_cart {
+      @include btn-reset;
+      @include block-format(_, 203px, 44px, 0, 0, $black);
+      @include text-format(14px, 400, $open-sans, $white);
+      border: 1px solid $black;
+      &:hover {
+        background: $white;
+        color: $black;        
+      }      
+    }
+  }
+
+  &__quantity {
+    @include block-format(_, 145px, 44px, 0 14px 15px 0);
+    @include flex();
+
+    &_item {
+      @include btn-reset;
+      @include block-format(_, 33.333%, 100%, 0, 0, $gray-ultra-light);
+      @include text-format(14px, 400);
+      transition: color 0.1s;      
+      transition: background 0.5s;      
+    }
+
+    :nth-child(1):hover,
+    :nth-child(3):hover {
+      background: $gray-dark;
+      color: $white; 
+    } 
+    :nth-child(1):active,
+    :nth-child(3):active {
+      color: $black; 
+    } 
+  }
+
+  &__buy {
+    @include text-format(14px, 400);
+    margin-bottom: 30px;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__line {
+    @include block-format(relative, calc(100% + 56px), 1px, 0 0 24px);
+    right: 20px;
+    border-bottom: 1px solid $gray-dark;
+  }
+
+  &__condition {
+    @include block-format(_, 200px, 75px);
+    @include flex(_, _, column);
+
+    &_item {
+      @include block-format(_, 100%, 33.333%);
+      @include text-format(14px, 400);
+      @include flex(_, center);
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    &_item-icon {
+      @include block-format(_, 15px, 15px, 0 5px);
+    }
+  }
+}
+// product end --------------------
+
+// others start --------------------
+.others {
+  @include block-format(_, 100%);
+  @include flex(_, center, column);
+
+  &__styles {
+    @include block-format(_, auto, 20px, 25px 0);
+    @include text-format(14px, 400);
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__block {
+    @include block-format(_, 100%);    
+    @include flex();    
+    @include container-block;
+
+    &_item-lg {
+      @include block-format(relative, 50%, 100%, 0 , 0 0 50%);
+      @include flex(space-between, flex-end, column);
+      @include media-block; 
+      overflow: hidden;
+      @media (max-width: $lg) {
+        padding: 0;
+      }
+    }
+
+    &_row-up {
+      @include block-row;
+      right: 0;
+      top: 0;
+    }
+
+    &_row-down {
+      @include block-row;
+      right: 0;
+      bottom: 0;
+    }
+
+    &_item-sm {
+      @include block-format(relative, calc(50% - 8px), 100%, 0, 0 0 50%);
+      overflow: hidden;
+      @media (max-width: $lg) {
+        padding: 0;
+      }
+    }
+
+    &_img {
+      @include block-format(absolute, 100%, 100%);
+      top: 0;
+      left: 0;
+      &:hover {
+        transform: scale(1.2);
+      }
+      @media (max-width: $lg) {
+        position: static;
+      }
+    }    
+  }
+
+  &__modal {
+    @include block-format(absolute, 100%, 100%, 0 , 0, rgba(52, 52, 52, 0.6));
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+    &_fc {
+      @include block-format(absolute);
+      top: 12px;
+      right: 12px;
+      cursor: pointer;
+      &:hover {
+        animation: jello-horizontal 0.5s 1 linear;
+      }
+    }
+
+    &_link {
+      @include block-format(absolute, 150px);
+      @include text-format(14px, 400, $open-sans, $white);
+      top: 40%;
+      left: calc(50% - 75px);
+      text-decoration: none;
+      &:hover {
+        animation: jello-horizontal 0.5s 1 linear;
+      }
+    }
+
+    &_like {
+      @include block-format(absolute, 44px, 25px);
+      @include flex(space-between, flex-start);
+      @include text-format(14px, 400, $open-sans, $white);
+      line-height: 10px;
+      left: calc(50% - 22px);
+      bottom: 3%;
+    }
+  }
+}
+// others end --------------------
+
+// footer end --------------------
+@import '../components/footer';
+// footer end --------------------
