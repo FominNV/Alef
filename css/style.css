@@ -1025,10 +1025,7 @@ canvas {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-.product__review_link:after {
-  content: url("../../icons/arrow-right.svg");
-  margin-left: 8px;
+  margin-right: 8px;
 }
 .product__price {
   border: none;
@@ -1070,9 +1067,6 @@ canvas {
 .product__price:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-}
-.product__price:after {
-  content: url("../../icons/arrow-right.svg");
 }
 .product__price_now {
   font: 700 24px "Open Sans Medium", sans-serif;
@@ -1154,7 +1148,7 @@ canvas {
   color: #FFFFFF;
 }
 .product__size {
-  position: _;
+  position: relative;
   width: 315px;
   height: 80px;
   margin: 0 0 40px;
@@ -1191,13 +1185,27 @@ canvas {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("../../icons/arrow-down.svg") no-repeat;
-  background-position: 96% 50%;
+  z-index: 2;
 }
 @media (max-width: 576px) {
   .product__size_select {
     width: 80%;
   }
+}
+.product__size_icon {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-wrap: break-word;
+  outline: none;
+  border: none;
+  top: 16px;
+  right: 16px;
 }
 .product__size_define {
   position: _;
@@ -2357,9 +2365,6 @@ canvas {
 .footer__form_clear:hover {
   -webkit-animation: jello-horizontal 0.5s 1 linear;
           animation: jello-horizontal 0.5s 1 linear;
-}
-.footer__form_clear:after {
-  content: url("../../icons/clear.svg");
 }
 .footer__form_btn {
   border: none;
