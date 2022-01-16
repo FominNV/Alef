@@ -92,9 +92,6 @@
       &:hover {
         animation: jello-horizontal 0.5s 1 linear;
       }
-      &:after {
-        content: url('../../icons/clear.svg');
-      }
     }
 
     &_btn {

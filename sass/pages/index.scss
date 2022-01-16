@@ -123,10 +123,7 @@ body {
     &_link {
       @include text-format(12px, 400, $open-sans, $gray-dark);
       @include flex(_, center);
-      &:after {
-        content: url('../../icons/arrow-right.svg');
-        margin-left: 8px;
-      }
+      margin-right: 8px;
     }
 
   }
@@ -137,9 +134,6 @@ body {
     @include flex(space-between, center);
     &:hover {
       transform: scale(1.05);
-    }
-    &:after {
-      content: url('../../icons/arrow-right.svg');
     }
 
     &_now {
@@ -170,7 +164,7 @@ body {
   }
 
   &__size {
-    @include block-format(_, 315px, 80px, 0 0 40px);
+    @include block-format(relative, 315px, 80px, 0 0 40px);
     @include text-format(14px, 400);
 
     &_select {
@@ -179,11 +173,16 @@ body {
       border: 1px solid $black;
       cursor: pointer;
       appearance: none;
-      background: url('../../icons/arrow-down.svg') no-repeat;
-      background-position: 96% 50%;
+      z-index: 2;
       @media (max-width: $sm) {
         width: 80%;
       }
+    }
+
+    &_icon {
+      @include block-format(absolute);
+      top: 16px;
+      right: 16px;
     }
 
     &_define {
