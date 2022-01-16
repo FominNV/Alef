@@ -5,6 +5,9 @@ function init() {
   let scrollData = 0;
   document.onscroll = () => {
     scrollData > scrollY ? header.classList.remove('hide') : header.classList.add('hide');
+    if (scrollY == 0) {
+      header.classList.remove('hide')
+    }
     return scrollData = scrollY;
   }
   // -----------
